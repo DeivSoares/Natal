@@ -17,6 +17,3 @@ sdays.onclick = function(){
     showDays.style.animation = 'ShowDays 1s normal'
     showDays.innerHTML = dias;
 }
-
-
-

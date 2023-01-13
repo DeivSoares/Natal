@@ -21,7 +21,7 @@ body {
   /* background-attachment: fixed; */
 }
 
-main {
+body main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@ main {
   text-align: center;
 }
 
-main div {
+body main div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,11 +64,6 @@ main div {
   }
 }
 
-body main div h1 span{
-    /* display: none; */
-    /* animation: ShowDays 1s normal; */
-}
-
 @keyframes ShowDays {
   0% {
     opacity: 0;
@@ -79,19 +74,18 @@ body main div h1 span{
   }
 }
 
-body main div button{
-    width: 8rem;
-    height: 2.5rem;
-    border: 1px solid black;
-    border-radius: 0.8rem;
-    cursor: pointer;
-    text-transform: uppercase;
+body main div button {
+  width: 8rem;
+  height: 2.5rem;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
-body main div button:hover{
-    background-color: red;
-    color: #fec16a;
-    font-weight: bold;
-    transition: 0.5s;
+body main div button:hover {
+  background-color: red;
+  color: #fec16a;
+  font-weight: bold;
+  transition: 0.5s;
 }
-
